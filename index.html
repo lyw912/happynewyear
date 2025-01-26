@@ -323,7 +323,7 @@
       var h = Math.floor((gap % day) / hour)
       var m = Math.floor((gap % hour) / minute)
       var s = Math.floor((gap % minute) / second)
-      if (gap < 300 * 1000) {
+      if (gap < 5 * 1000) {
         // 给页面添加淡出类
         document.body.classList.add('fade-out');
 
